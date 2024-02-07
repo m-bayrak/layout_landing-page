@@ -1,0 +1,21 @@
+/* #region icon */
+.icon {
+  display: block;
+  height: 24px;
+  width: 24px;
+  // background-image: url(../img/icons/icon-burger-menu.svg);
+  // background-size: cover;
+
+  &--phone {
+    background-image: url(../img/icons/icon-phone.svg);
+  }
+
+  &--menu {
+    background-image: url(../img/icons/icon-burger-menu.svg);
+  }
+
+  &--close {
+    background-image: url(../img/icons/icon-close.svg);
+  }
+}
+/* #endregion */
