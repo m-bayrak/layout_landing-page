@@ -1,8 +1,14 @@
 .top-bar {
-  padding: 24px 20px;
+  padding-block: 24px;
+  @include contentPaddingInline;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (min-width: 576px) {
+    padding: 64px 72px;
+  }
 }
 
 .top-bar__icons {
