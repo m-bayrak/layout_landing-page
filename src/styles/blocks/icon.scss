@@ -6,7 +6,7 @@
   background-image: url(../img/icons/icon-burger-menu.svg);
   background-size: cover;
 
-  @media (min-width: 576px) {
+  @include onTablet {
     height: 32px;
     width: 32px;
   }
